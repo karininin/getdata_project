@@ -1,17 +1,27 @@
 #CODE BOOK
 
-_subject_	&nbsp;&nbsp;&nbsp;	  30\s\s
-&nbsp;&nbsp;&nbsp;	  ID of subject doing the test\s\s
+_subject_	&nbsp;&nbsp;&nbsp;	  30  
+
+&nbsp;&nbsp;&nbsp;	  ID of subject doing the test  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			    `1..30 .unique identifier`
 			
-_activity_		&nbsp;&nbsp;&nbsp;  6\s\s
-&nbsp;&nbsp;&nbsp;	  Type of activity performed during the test\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `LAYING`\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `SITTING`\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `STANDING`\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING`\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING DOWNSTAIRS`\s\s
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING UPSTAIRS`\s\s
+_activity_		&nbsp;&nbsp;&nbsp;  6  
+
+&nbsp;&nbsp;&nbsp;	  Type of activity performed during the test  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `LAYING`  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `SITTING`  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `STANDING`  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING`  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING DOWNSTAIRS`  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING UPSTAIRS`  
+
 		
 _tBodyAcc.mean.X_	
 &nbsp;&nbsp;&nbsp;	  Average of the means for time measure of body acceleration in X-direction
