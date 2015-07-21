@@ -2,9 +2,8 @@
 
 files included
 
-
-	*  __CodeBook.md__ - explains the variables in the dataset and how/why they were chosen
-	*  __run_analysis.R__ - a function that can be run as long as the Samsung data is in your working directory. The output is a tidy dataset
+	1.  __CodeBook.md__ - explains the variables in the dataset and how/why they were chosen
+	2.  __run_analysis.R__ - a function that can be run as long as the Samsung data is in your working directory. The output is a tidy dataset
 
 	
 ##run_analysis.R
