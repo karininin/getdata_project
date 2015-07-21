@@ -1,8 +1,8 @@
 #README  
 
 files included
-	*__CodeBook.md__ - explains the variables in the dataset and how/why they were chosen
-	*__run_analysis.R__ - a function that can be run as long as the Samsung data is in your working directory. The output is a tidy dataset
+	* __CodeBook.md__ - explains the variables in the dataset and how/why they were chosen
+	* __run_analysis.R__ - a function that can be run as long as the Samsung data is in your working directory. The output is a tidy dataset
 
 	
 ##run_analysis.R
@@ -22,4 +22,4 @@ subject and activity.
 
 The names of the activities are modified from numeric representation, to more descriptive names found in the file "activity_labets.txt"
 
-Finally, the data is melted with id columns being subject and activity, and then cast with the mean of each remaining variable to prooduce the tidy, 180 x 68 dataset
+Finally, the data is melted with id columns being subject and activity, and then cast with the mean of each remaining variable to produce the tidy, 180 x 68 dataset
