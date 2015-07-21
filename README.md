@@ -7,6 +7,8 @@
 	
 ##run_analysis.R
 
+_If the Samsung data has not yet been downloaded, removing the commenting on lines 4:8 will let the script do that first._
+
 The function read the two datasets for training and for test respectively.
 
 The columns for subject and activity are gathered for each of the sets, and attached as column 1 and 2 of the sets.
