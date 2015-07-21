@@ -1,5 +1,20 @@
 #CODE BOOK
 
+##Choice of features
+The features selected from the original data are the ones concerning the mean value and standard deviation of all the features measured in the original 
+set. 
+The _meanFreq_ variable has not been included here, since it is simply a measure needed to obtain a mean frequency.
+This data frame contains the values from both the test data set and the training dataset. The subjects performing the tasks are numbered with IDs from
+1 to 30, and the tasks are labeled according to the activity labels in the original data.
+The column header has been changed to include the descriptive names given in a separate file in the original data. For readabilty, parentheses have been 
+removed from the variable names, "-" signs have been changed to "." and a typo, where "Body" was typed twice in some of the frequency variables have 
+been corrected.
+
+What is listed for each feature in this tidy dataset is the average of all the listings for the same one in the original dataset, for each test subject 
+and each activity.
+
+
+##Variable names
 _subject_	&nbsp;&nbsp;&nbsp;	  30  
 
 &nbsp;&nbsp;&nbsp;	  ID of subject doing the test  
@@ -23,16 +38,20 @@ _activity_		&nbsp;&nbsp;&nbsp;  6
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		    `WALKING UPSTAIRS`  
 
 		
-_tBodyAcc.mean.X_	
+_tBodyAcc.mean.X_  
+
 &nbsp;&nbsp;&nbsp;	  Average of the means for time measure of body acceleration in X-direction
 	
-_tBodyAcc.mean.Y_	
+_tBodyAcc.mean.Y_  
+
 &nbsp;&nbsp;&nbsp;	  Average of the means for time measure of body acceleration in Y-direction
 	
-_tBodyAcc.mean.Z_	
+_tBodyAcc.mean.Z_  
+
 &nbsp;&nbsp;&nbsp;	  Average of the means for time measure of body acceleration in Z-direction
 	
-_tBodyAcc.std.X_	
+_tBodyAcc.std.X_  
+
 &nbsp;&nbsp;&nbsp;	  Average of the standard deviations for time measure of body acceleration in X-direction
 	
 _tBodyAcc.std.Y_  
