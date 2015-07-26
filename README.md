@@ -17,7 +17,7 @@ The two sets are then merged, by all the column names. Since there is no overlap
 
 Currently, the variable names are V1,V2, etc. A list of descriptive variable names is available in the file "features.txt". These are gathered and 
 applied to the dataset. "-" signs are changed to "." for better readability. Parentheses are removed and the last few variables start with "BodyBody",
-which can be changed to just "Body" without causing any duplicates.
+which can be changed to just "Body" without causing any duplicates. I have chosen not to make any longer and even more descriptive variable names, so that they will be fairly easy to work with when doing further analysis, and the longer explanations are available to read in the code book.
 
 A smaller dataset is extracted, containing only the columns containing information about mean and standard deviation for the different features, as well as
 subject and activity.
